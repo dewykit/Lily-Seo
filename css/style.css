@@ -37,8 +37,8 @@ h1,h2,h3,h4 {
 
 h1 {
   color: #000;
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 h2 {
@@ -48,8 +48,8 @@ h2 {
 
 h3 {
   color: #444;
-  font-size: 14px;
-  letter-spacing: 4px;
+  font-size: 15px;
+  letter-spacing: 5px;
 }
 
 h5 {
@@ -204,7 +204,7 @@ nav ul.right {
 }
 
 #nav-menu a {
-  font-weight: 300;
+  font-weight: 100;
   font-size: 26px;
   color: #ffffff;
   text-transform: uppercase;
@@ -384,7 +384,7 @@ a.icon {
 }
 
 .list-menu .ion-close-round {
-  font-size: 31px;
+  font-size: 20px;
   position: absolute;
   top: 32px;
   right: 32px;
@@ -477,7 +477,7 @@ a.icon {
 }
 
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
@@ -486,14 +486,14 @@ a.icon {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .fa {
-    background: #f9f9f9;
-    border-radius: 100px;
+    background: #;
+    border-radius: 0px;
     color: #141414;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     display: inline-block;
-    width: 3.5rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
     text-align: center;
     text-decoration: none;
     margin-bottom: 4px;
