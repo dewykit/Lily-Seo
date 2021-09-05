@@ -499,6 +499,9 @@ a.icon {
     margin-bottom: 4px;
 }
 
+.container:hover .overlay {
+  opacity: 1;
+
 /*filter css*/
 .filter-wrapper {
     width: 100%;
