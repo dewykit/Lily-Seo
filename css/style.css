@@ -509,13 +509,13 @@ opacity: 0.9;
 
 #portfolio .portfolio-thumb .portfolio-overlay .fa {
   background: #f9f9f9;
-  border-radius: 100px;
+  border-radius: 0px;
   color: #141414;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   display: inline-block;
-  width: 3.5rem;
-  height: 3.5rem;
-  line-height: 3.5rem;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
   text-align: center;
   text-decoration: none;
   margin-bottom: 4px;
@@ -720,7 +720,7 @@ padding-bottom: 0rem;
 }
 
 #contact .fa {
-font-size: 32px;
+font-size: 1rem;
 padding-right: 10px;
 }
 
