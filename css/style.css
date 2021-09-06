@@ -191,7 +191,7 @@ display: flex;
 -webkit-justify-content: flex-end;
 -ms-flex-pack: end;
 justify-content: flex-end;
-padding: 20px 0 0;
+padding: 45px 0 0;
 }
 
 nav ul {
@@ -299,7 +299,7 @@ padding: 4px 0 0;
 }
 
 .circle i {
-font-size: 36px;
+font-size: 25px;
 color: #111112;
 }
 
