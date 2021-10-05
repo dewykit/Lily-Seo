@@ -467,6 +467,15 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-bottom: 32px;
+width: 100vh;
+height: 100vw;
+transform: rotate(-90deg) translateX(-100vh);
+transform-origin: top left;
+overflow-y: scroll;
+overflow-x: hidden;
+position: absolute;
+scrollbar-width: none;
+-ms-overflow-style: none;
 }
 .c1 > a {
 width: 30%;

@@ -462,27 +462,48 @@ overflow: hidden;
 margin: 0;
 } 
 
-.c1 {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 32px;
+.slide {
+  width: 100vw;
+  height: 100vh;
 }
-.c1 > a {
-width: 30%;
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  
 }
-.c1 img {
-max-width: 100%;
+
+.one {
+  background:rgba(168, 168, 168, 0.9)
 }
-@media screen and (max-width: 768px) {
-.c1 {
-  flex-wrap: wrap;
-  justify-content: center;
+.two {
+  background:rgba(148, 79, 79, 0.9)
 }
-.c1 > a {
-  width: 98%;
+.three {
+  background:rgba(161, 214, 37, 0.9)
 }
+.four {
+  background:rgba(75, 102, 224, 0.9)
 }
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display:none;
+}
+
 
 #portfolio .portfolio-thumb .portfolio-overlay {
 background: #141414;
@@ -787,6 +808,7 @@ background: #141414;
 padding-top: 120px;
 padding-bottom: 120px;
 text-align: center;
+
 }
 
 
