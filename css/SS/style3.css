@@ -478,13 +478,9 @@ max-width: 100%;
 .c1 {
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 0px !important;
 }
 .c1 > a {
   width: 98%;
-}
-#img-responsive {
-  padding: 12px;
 }
 }
 
