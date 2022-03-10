@@ -48,8 +48,8 @@ font-size: 1rem;
 
 h3 {
 color: #444;
-font-size: 15px;
-letter-spacing: 5px;
+font-size: 10px;
+letter-spacing: 2px;
 }
 
 h5 {
@@ -204,8 +204,8 @@ right: 0
 }
 
 #nav-menu a {
-font-weight: 300;
-font-size: 26px;
+font-weight: 100;
+font-size: 14px;
 color: #ffffff;
 text-transform: uppercase;
 letter-spacing: 0.3rem;
@@ -787,7 +787,7 @@ bottom: -50px;
 /* footer section styles
 /* ========================================== */
 footer {
-background: #141414;
+background: #ffffff;
 padding-top: 120px;
 padding-bottom: 120px;
 text-align: center;
@@ -870,11 +870,11 @@ padding-top: 80px !important;
 @media (max-width: 700px) {
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 h3 {
-  font-size: 13px;
-  letter-spacing: 3px;
+  font-size: 10px;
+  letter-spacing: 2px;
 }
 
 .filter-wrapper {
